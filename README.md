@@ -20,36 +20,26 @@
 
    脚手架模版结构定义清晰，可扩展性好。配置文件与测试用例测试场景分离，初始化引入等设计使其后期易维护。
 
-##### **第二章 **项目环境搭建说明
-
+##### **第二章**	**项目环境搭建说明**
 ###### 一、开发环境说明
 
 1、本地开发环境适用搭建的anaconda虚拟环境，python版本为：3.7.6
 
 ```
 # 数据库安装库
-
 pip install robotframework-databaselibrary
 pip install pymysql
 
 # 浏览器安装库
-
 # 注意web自动化，还需要相应的浏览器驱动
-
 pip install robotframework-selenium2library
 
 # 接口测试安装库
-
 pip install requests
 pip install robotframework-requests
 
 # 图像识别库
-
 pip install robotframework-sikulilibrary
-```
-
-```
-
 ```
 
 2、自定义测试库：
@@ -68,11 +58,11 @@ pip install robotframework-sikulilibrary
 
 ###### **三、注意事项**
 
-1、使用**SikuliLibrary库**注意事项
+**1、使用****SikuliLibrary****库注意事项**
 
 则本地需要安装Java JDK1.8版本以上环境。如果在自己项目中不需要使用，则去除SikuliLibrary库的引用即可。
 
-2、使用**自定义测试库**
+**2、使用自定义****测试****库**
 
 将已有的自定义测试库MyLibrary放在python安装目录lib\sit-packages下。【项目目录AutoTester\testdesign有备份】
 
@@ -93,44 +83,41 @@ pip install robotframework-sikulilibrary
 ##### **第三章、项目框架设计说明**
 
 ###### **一、第一层目录层级**
+![在这里插入图片描述](https://img-blog.csdnimg.cn/202006162311428.jpg)
+1. AUTO-WEB-UI: 放置WEB-UI自动化UI脚本源码
 
-![img](file:///C:\Users\LT\AppData\Local\Temp\ksohtml13436\wps1.jpg) 
+2. testdata：放置EXCEL用例或测试数据
 
-\1. AUTO-WEB-UI: 放置WEB-UI自动化UI脚本源码
+3. testdesign：存放自动化系统数据结构和开发设计文档
 
-\2. testdata：放置EXCEL用例或测试数据
-
-\3. testdesign：存放自动化系统数据结构和开发设计文档
-
-\4. testimg：存放系统截图
+4. testimg：存放系统截图
 
 ###### 二、自动化脚本**目录**
 
-![img](file:///C:\Users\LT\AppData\Local\Temp\ksohtml13436\wps2.jpg) 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616230823945.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
+1. 测试场景库设计下层目录为单场景和多场景：
 
-\1. 测试场景库设计下层目录为单场景和多场景：
+* 单场景：将测试用例库调试好的用例抽取为关键字，然后根据ATDD驱动开发组装为单场景
 
-\*  单场景：将测试用例库调试好的用例抽取为关键字，然后根据ATDD驱动开发组装为单场景
+* 多场景：将单场景抽取为关键字，然后将单场景组装为多场景
 
-\* 多场景：将单场景抽取为关键字，然后将单场景组装为多场景
+2. 测试用例库
 
-\2. 测试用例库
+* 单步骤：根据需求抽取单个步骤功能
 
-\* 单步骤：根据需求抽取单个步骤功能
-
-\* 测试用例：根据系统菜单划分层级，调试测试用例。
+* 测试用例：根据系统菜单划分层级，调试测试用例。
 
  
 
-##### **第四章、**启动说明
+##### 第四章、**启动说明**
 
 使用Ride工具引入到UI层级。如图所示
 
-![img](file:///C:\Users\LT\AppData\Local\Temp\ksohtml13436\wps3.jpg) 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616230847854.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
 
 ###### 一、 常规启动：
 
-![img](file:///C:\Users\LT\AppData\Local\Temp\ksohtml13436\wps4.jpg) 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616230901225.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
 
  
 
@@ -138,40 +125,26 @@ pip install robotframework-sikulilibrary
 
 将监听器参数按监听器规则写入Arguments参数选项框，如下示例：
 
-![img](file:///C:\Users\LT\AppData\Local\Temp\ksohtml13436\wps5.jpg) 
-
- 
-
- 
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616230945707.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
 ###### **三、** **查看**报告
 
 点击Report即可查看运行的详细报告，示例如下：
 
-![img](file:///C:\Users\LT\AppData\Local\Temp\ksohtml13436\wps6.jpg) 
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616230957494.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
 
 
 **#### 第四章、使用说明书及视频演示资料(服务收费版(39.9元)**
 
 以下为脚手架整理的全部资料，供参考，如需详细资料及技术支持，请加个人微信号<br/> 
 
-微信号：<br/> 
-
-<img src="./testimg/README/wp.jpg" width = "200" height = "200" /><br/> 
-
+微信号：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616234306528.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
 邮箱：1981774464@qq.com <br/><br/> 
 
-资料部分截图如下所示：<br/>
-
-<img src="./testimg/README/pay_1.png" width = "500"  /><br/>
-
-<img src="./testimg/README/pay_2.png" width = "500"  /><br/>
-
-<img src="./testimg/README/pay_3.png" width = "500"  /><br/>
-
-<img src="./testimg/README/pay_4.png" width = "500"  /><br/>
-
+资料部分截图如下所示：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616234105162.png)![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616234118601.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2020061623412814.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616234136704.png)
 **#### 支持**
 
 该项目是个人基于Airtest搭建的模块框架，如果你发现了新的 bug请新建一个 issue，欢迎指正。如果对你有帮助，给个 star 哟👏👏
@@ -180,26 +153,9 @@ pip install robotframework-sikulilibrary
 
 如果觉得还不错，请作者喝杯咖啡吧 ☺<br/> 
 
-<img src="./testimg/README/w.jpg" width = "200" height = "200" />
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616234241930.jpg)
 
-
-
-##### 附录参考：
-
-###### **1、**RF_anaconda虚拟环境安装使用教程**
-
-https://blog.csdn.net/qq3399013670/article/details/106292687
-
-###### **2、**RF_开发工具RIDE教程
-
-https://blog.csdn.net/qq3399013670/article/details/106444199
-
-###### 3、RF_常用内置关键字库和第三方库介绍
-
-https://blog.csdn.net/qq3399013670/article/details/106445014
-
-###### 4、RF_常见问题集锦
-
-https://blog.csdn.net/qq3399013670/article/details/106445299
-
+##### **附录参考：**
+[RF_常用内置关键字库和第三方库介绍](https://blog.csdn.net/qq3399013670/article/details/106445014)
+[RF_常见问题集锦](https://blog.csdn.net/qq3399013670/article/details/106445299)
  
