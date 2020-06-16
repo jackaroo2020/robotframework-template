@@ -1,0 +1,3 @@
+2
+user_id|xzopenlxd|399842a4-dd04-a353-7040c72ebf37|1005.00|zhangsan1|AD0EDD53A2F6BF94BB|0.00
+user_id|zsopenlxd|78cd8e4f-3d54-8011-36b3eedb8190|2002.00|zhangsan2|1DF7971BCE96303B5F|0.00
