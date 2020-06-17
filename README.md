@@ -83,7 +83,7 @@ pip install robotframework-sikulilibrary
 ##### **第三章、项目框架设计说明**
 
 ###### **一、第一层目录层级**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/202006162311428.jpg)
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095941_24cdc32f_5536345.jpeg)
 1. AUTO-WEB-UI: 放置WEB-UI自动化UI脚本源码
 
 2. testdata：放置EXCEL用例或测试数据
@@ -94,7 +94,7 @@ pip install robotframework-sikulilibrary
 
 ###### 二、自动化脚本**目录**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616230823945.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095941_11e100a5_5536345.jpeg)
 1. 测试场景库设计下层目录为单场景和多场景：
 
 * 单场景：将测试用例库调试好的用例抽取为关键字，然后根据ATDD驱动开发组装为单场景
@@ -113,11 +113,11 @@ pip install robotframework-sikulilibrary
 
 使用Ride工具引入到UI层级。如图所示
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616230847854.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095941_25b6d47f_5536345.jpeg)
 
 ###### 一、 常规启动：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616230901225.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095943_1ee4fcf5_5536345.jpeg)
 
  
 
@@ -125,26 +125,27 @@ pip install robotframework-sikulilibrary
 
 将监听器参数按监听器规则写入Arguments参数选项框，如下示例：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616230945707.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095943_272b96a4_5536345.jpeg)
 ###### **三、** **查看**报告
 
 点击Report即可查看运行的详细报告，示例如下：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616230957494.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095942_805aea67_5536345.jpeg)
 
 
 **#### 第四章、使用说明书及视频演示资料(服务收费版(39.9元)**
 
 以下为脚手架整理的全部资料，供参考，如需详细资料及技术支持，请加个人微信号<br/> 
 
-微信号：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616234306528.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
+微信号：<br/>
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095942_541b2bfe_5536345.jpeg)<br/>
 邮箱：1981774464@qq.com <br/><br/> 
 
-资料部分截图如下所示：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616234105162.png)![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616234118601.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020061623412814.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMzM5OTAxMzY3MA==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616234136704.png)
+资料部分截图如下所示：<br/>
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095942_7a93e461_5536345.png)<br/>
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095942_4b3de6d7_5536345.png)<br/>
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095943_54b631a8_5536345.png)<br/>
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095943_de812308_5536345.png)<br/>
 **#### 支持**
 
 该项目是个人基于Airtest搭建的模块框架，如果你发现了新的 bug请新建一个 issue，欢迎指正。如果对你有帮助，给个 star 哟👏👏
@@ -153,9 +154,9 @@ pip install robotframework-sikulilibrary
 
 如果觉得还不错，请作者喝杯咖啡吧 ☺<br/> 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200616234241930.jpg)
+![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095943_05795724_5536345.jpeg)
 
 ##### **附录参考：**
-[RF_常用内置关键字库和第三方库介绍](https://blog.csdn.net/qq3399013670/article/details/106445014)
+[RF_常用内置关键字库和第三方库介绍](https://blog.csdn.net/qq3399013670/article/details/106445014)<br/>
 [RF_常见问题集锦](https://blog.csdn.net/qq3399013670/article/details/106445299)
  
