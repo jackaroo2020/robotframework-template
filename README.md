@@ -154,8 +154,8 @@ pip install robotframework-sikulilibrary
 **#### 捐赠**
 
 如果觉得还不错，请作者喝杯咖啡吧 ☺<br/> 
+<img src="https://images.gitee.com/uploads/images/2020/0617/095943_05795724_5536345.jpeg" width = "200" height = "200" />
 
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095943_05795724_5536345.jpeg)
 
 ##### **附录参考：**
 [RF_常用内置关键字库和第三方库介绍](https://blog.csdn.net/qq3399013670/article/details/106445014)<br/>
