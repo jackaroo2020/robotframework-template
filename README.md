@@ -140,13 +140,13 @@ pip install robotframework-sikulilibrary
 
 微信号：<br/>
 <img src="https://images.gitee.com/uploads/images/2020/0617/095942_541b2bfe_5536345.jpeg" width = "200" height = "200" /><br/> 
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095942_541b2bfe_5536345.jpeg)<br/>
 
 资料部分截图如下所示：<br/>
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095942_7a93e461_5536345.png)<br/>
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095942_4b3de6d7_5536345.png)<br/>
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095943_54b631a8_5536345.png)<br/>
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095943_de812308_5536345.png)<br/>
+<img src="https://images.gitee.com/uploads/images/2020/0617/095942_7a93e461_5536345.png" width = "500"  /><br/>
+<img src="https://images.gitee.com/uploads/images/2020/0617/095942_4b3de6d7_5536345.png" width = "500"  /><br/>
+<img src="https://images.gitee.com/uploads/images/2020/0617/095943_54b631a8_5536345.png" width = "500"  /><br/>
+<img src="https://images.gitee.com/uploads/images/2020/0617/095943_de812308_5536345.png" width = "500"  /><br/>
+
 **#### 支持**
 
 该项目是个人基于Airtest搭建的模块框架，如果你发现了新的 bug请新建一个 issue，欢迎指正。如果对你有帮助，给个 star 哟👏👏
