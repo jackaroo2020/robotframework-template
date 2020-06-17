@@ -84,24 +84,24 @@ pip install robotframework-sikulilibrary
 
 ###### **一、第一层目录层级**
 ![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095941_24cdc32f_5536345.jpeg)
-1. AUTO-WEB-UI: 放置WEB-UI自动化UI脚本源码
+* AUTO-WEB-UI: 放置WEB-UI自动化UI脚本源码
 
-2. testdata：放置EXCEL用例或测试数据
+* testdata：放置EXCEL用例或测试数据
 
-3. testdesign：存放自动化系统数据结构和开发设计文档
+* testdesign：存放自动化系统数据结构和开发设计文档
 
-4. testimg：存放系统截图
+* testimg：存放系统截图
 
 ###### 二、自动化脚本**目录**
 
 ![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095941_11e100a5_5536345.jpeg)
-1. 测试场景库设计下层目录为单场景和多场景：
+测试场景库设计下层目录为单场景和多场景：
 
 * 单场景：将测试用例库调试好的用例抽取为关键字，然后根据ATDD驱动开发组装为单场景
 
 * 多场景：将单场景抽取为关键字，然后将单场景组装为多场景
 
-2. 测试用例库
+测试用例库
 
 * 单步骤：根据需求抽取单个步骤功能
 
@@ -115,31 +115,32 @@ pip install robotframework-sikulilibrary
 
 ![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095941_25b6d47f_5536345.jpeg)
 
-###### 一、 常规启动：
+###### 一、 常规启动
 
 ![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095943_1ee4fcf5_5536345.jpeg)
 
  
 
-###### 二、 上报数据启动：
+###### 二、 上报数据启动
 
 将监听器参数按监听器规则写入Arguments参数选项框，如下示例：
 
 ![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095943_272b96a4_5536345.jpeg)
-###### **三、** **查看**报告
+
+###### 三、 查看报告
 
 点击Report即可查看运行的详细报告，示例如下：
 
 ![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095942_805aea67_5536345.jpeg)
 
 
-**#### 第四章、使用说明书及视频演示资料(服务收费版(39.9元)**
+#### 第四章、使用说明书及视频演示资料(服务收费版(39.9元)
 
 以下为脚手架整理的全部资料，供参考，如需详细资料及技术支持，请加个人微信号<br/> 
 
 微信号：<br/>
+<img src="https://images.gitee.com/uploads/images/2020/0617/095942_541b2bfe_5536345.jpeg" width = "200" height = "200" /><br/> 
 ![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095942_541b2bfe_5536345.jpeg)<br/>
-邮箱：1981774464@qq.com <br/><br/> 
 
 资料部分截图如下所示：<br/>
 ![在这里插入图片描述](https://images.gitee.com/uploads/images/2020/0617/095942_7a93e461_5536345.png)<br/>
